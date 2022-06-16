@@ -1,0 +1,1543 @@
+if game.PlaceId == 7560156054 then 
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Clicker Simulator", "BloodTheme")
+    
+    -- Main
+    
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+    
+    MainSection:NewToggle("Auto Tap", "Taps", function(v)
+      getgenv().autoswing = v
+      while true do
+        if not getgenv().autoswing then return end
+
+local args = {
+    [1] = {
+        ["manual"] = {
+            ["1.53356e+100"] = 5
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage").Clickerr:InvokeServer(unpack(args))
+
+        wait(0.450)
+    end
+  end)
+
+    local Rebirth = Window:NewTab("Rebirth")
+    local RebirthSection = Rebirth:NewSection("Rebirth")
+
+    RebirthSection:NewToggle("Rebirth 1", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+local args = {
+    [1] = 1,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+wait(1)
+end
+        end)
+
+    RebirthSection:NewToggle("Rebirth 5", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 5,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 10", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 10,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 50", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 50,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+    end
+    end)
+    RebirthSection:NewToggle("Rebirth 250", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 250,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 1k", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 1000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 5k", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 5000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 25k", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 25000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 125k", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 125000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 500k", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 500000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 3M", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 3000000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 15M", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 15000000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 50M", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 50000000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 250M", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 250000000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+ RebirthSection:NewToggle("Rebirth 1B", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 1000000000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+ RebirthSection:NewToggle("Rebirth 5B", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 5000000000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1) 
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 25B", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 25000000000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 50B", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 50000000000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 150B", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 150000000000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+        end)
+    RebirthSection:NewToggle("Rebirth 750B", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+local args = {
+    [1] = 750000000000,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 3.5T", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 3500000000000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 20T", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+        local args = {
+        [1] = 20000000000000,
+      [2] = false,
+      [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 100T", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 100000000000000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 500T", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 500000000000000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 2.5Qa", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 2500000000000000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 15Qa", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 15000000000000000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+ RebirthSection:NewToggle("Rebirth 75Qa", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 75000000000000000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 375Qa", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 375000000000000000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 2.5Qi", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 2500000000000000000,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 15Qi", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+local args = {
+    [1] = 15000000000000000000,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 75Qi", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+local args = {
+    [1] = 75000000000000000000,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+
+        wait(1)
+        end
+    end)
+ RebirthSection:NewToggle("Rebirth 375Qi", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+local args = {
+    [1] = 375000000000000000000,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 2Sx", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+local args = {
+    [1] = 2.e+21,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 10Sx", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+local args = {
+    [1] = 1.e+22,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+
+        wait(1)
+        end
+    end)
+ RebirthSection:NewToggle("Rebirth 50Sx", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+local args = {
+    [1] = 5.e+22,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 250Sx", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+local args = {
+    [1] = 2.5e+23,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 1.5Sp", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+local args = {
+    [1] = 1.5e+24,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+wait(1)
+end
+    end)
+ RebirthSection:NewToggle("Rebirth 20Sp", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+local args = {
+    [1] = 2.e+25,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+
+        wait(1) 
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 100Sp", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+local args = {
+    [1] = 1.e+26,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 600Sp", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+local args = {
+    [1] = 6.e+26,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+
+        wait(1) 
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 3Oc", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+local args = {
+    [1] = 3.e+27,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 18Oc", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+local args = {
+    [1] = 1.8e+28,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 90Oc", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+local args = {
+    [1] = 9.e+28,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 500Oc", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+local args = {
+    [1] = 5.e+29,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 2.5No", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+
+local args = {
+    [1] = 2.5e+30,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 15No", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+local args = {
+    [1] = 1.5e+31,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 75No", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 7.5+32,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 450No", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 4.5+33,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 2.5Dc", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 2.5+34,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 15Dc", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 1.5+35,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 75Dc", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 7.5+36,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 450Dc", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 4.5+37,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 2.5Ud", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 2.5+38,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 15Ud", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 1.5+39,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 75Ud", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 7.5+40,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 450Ud", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 4.5+41,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 2.25Dd", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 2.25+42,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 13Dd", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 1.3+43,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 65Dd", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 6.5+44,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 350Dd", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 3.5+45,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 1.75Td", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 1.75+46,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+    RebirthSection:NewToggle("Rebirth 10Td", "Auto Rebirts", function(v)
+        getgenv().autoclick = v
+        while true do
+          if not getgenv().autoclick then return end
+          local args = {
+            [1] = 1.e+47,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.requestRebirth:FireServer(unpack(args))
+        wait(1)
+        end
+    end)
+
+
+
+
+
+    local Teleport = Window:NewTab("Teleport")
+    local TeleportSection = Teleport:NewSection("Teleport")
+
+    TeleportSection:NewButton("Sky", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(25.0004597, 1281.98877, -76.8014221, -5.17789296e-08, -3.33405623e-08, 1, 3.33406263e-08, 1, 3.33405623e-08, -1, 3.33406298e-08, -5.1778926e-08)        
+    end)
+    TeleportSection:NewButton("Ice", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-34.499527, 2529.90039, -33.4000854, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+    TeleportSection:NewButton("Lava", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-95.9876022, 4366.68408, -29.7891541, 0, 0, 1, 0, 1, -0, -1, 0, 0)    
+    end)
+    TeleportSection:NewButton("Pirate", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-94.2998352, 6975.6709, 12.6992226, 0, 0, 1, 0, 1, -0, -1, 0, 0)    
+    end)
+    TeleportSection:NewButton("Space", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.6004105, 10090.6973, -0.600207329, 0, 0, 1, 0, 1, -0, -1, 0, 0)    
+    end)
+    TeleportSection:NewButton("Forest", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-125.900002, 13129.3936, -0.399842262, 0, 0, 1, 0, 1, -0, -1, 0, 0)    
+    end)
+    TeleportSection:NewButton("Candyland", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-74.999794, 16260.1963, 0.299720764, 0, 0, 1, 0, 1, -0, -1, 0, 0)    
+    end)
+    TeleportSection:NewButton("Atlantis", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-29.6005764, 19358.1035, -0.00189566612, 0, 0, 1, 0, 1, -0, -1, 0, 0)    
+    end)
+    TeleportSection:NewButton("Tropical", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-28.2803135, 21736.7324, 8.32740021, 0, 0, 1, 0, 1, -0, -1, 0, 0)    
+    end)
+    TeleportSection:NewButton("Bee", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-39.679863, 23521.209, 8.32737637, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+    TeleportSection:NewButton("Galaxy", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-49.5999832, 24894.0449, -0.800058365, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+
+    local TeleportSection = Teleport:NewSection("Portal 1")
+
+    TeleportSection:NewButton("Robot", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19967.6953, 948.768433, -7.98999786, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+    TeleportSection:NewButton("Chemical", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19950.0898, 1988.00916, -28.5615864, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+    TeleportSection:NewButton("Steampunk", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19952.1016, 3306.02954, -52.1455383, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+    TeleportSection:NewButton("Holographic", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19947.7793, 4876.63965, -83.9510345, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+    TeleportSection:NewButton("Music", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19951.7168, 6656.70605, -78.8723755, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+    TeleportSection:NewButton("Hacker", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19951.9199, 8831.94434, -138.848618, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+    TeleportSection:NewButton("Mars", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19951.9199, 11046.8555, -185.358429, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+
+    local TeleportSection = Teleport:NewSection("Time World")
+
+    TeleportSection:NewButton("Dinosaur", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9885.81836, 985.315796, -1860.05139, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+    TeleportSection:NewButton("Egypt", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9897.37402, 2023.69177, -1866.24939, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+    TeleportSection:NewButton("Ice Age", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9896.06641, 3270.73218, -1922.32312, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+    TeleportSection:NewButton("Samurai", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9896.06641, 4718.74854, -1957.25684, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+    TeleportSection:NewButton("Rome", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9892.85938, 6367.52881, -1997.44922, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+    TeleportSection:NewButton("Jungle", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9915.00488, 8422.00293, -2025.77588, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+    TeleportSection:NewButton("Viking", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9901.91602, 10812.0869, -2023.88318, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+    TeleportSection:NewButton("Wild West", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9907.37109, 13076.1855, -2035.94727, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+    TeleportSection:NewButton("Future", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10055.7588, 15559.8721, -2050.28564, 0, 0, -1, 0, 1, 0, 1, 0, 0)        
+    end)
+    TeleportSection:NewButton("Heaven", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9924.70312, 18708.1641, -2051.55103, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+    TeleportSection:NewButton("Hell", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9924.70312, 21674.0137, -2051.55103, 0, 0, 1, 0, 1, -0, -1, 0, 0)        
+    end)
+
+
+
+    local TeleportSection = Teleport:NewSection("Ocean World")
+
+    TeleportSection:NewButton("Swamp", "Teleports To Island", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9719.45898, 967.883545, -10890.0586, -0.566736758, -4.63645655e-08, 0.823898911, -3.33405481e-08, 1, 3.33405588e-08, -0.823898911, -8.57392113e-09, -0.566736758)    
+    end)
+
+
+
+
+
+
+    local Eggs = Window:NewTab("Eggs")
+    local EggsSection = Eggs:NewSection("Eggs")
+
+    EggsSection:NewToggle("Open 325M Event Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+
+local args = {
+    [1] = workspace.Eggs:FindFirstChild("325M Event"),
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+
+    EggsSection:NewToggle("Open Ice Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+local args = {
+    [1] = workspace.Eggs:FindFirstChild("Frozen Arctic"),
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+wait(0.8)
+        end
+    end)
+
+    EggsSection:NewToggle("Open Lava Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+
+local args = {
+    [1] = workspace.Eggs:FindFirstChild("Lava Dragon"),
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+
+    EggsSection:NewToggle("Open Pirate Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+local args = {
+    [1] = workspace.Eggs.Treasure,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+
+    EggsSection:NewToggle("Open Space Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+
+local args = {
+    [1] = workspace.Eggs:FindFirstChild("Space Guardian"),
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+
+    EggsSection:NewToggle("Open Forest Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+local args = {
+    [1] = workspace.Eggs.Treeland,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+
+    EggsSection:NewToggle("Open Candyland Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+
+local args = {
+    [1] = workspace.Eggs:FindFirstChild("Ice Cream"),
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+
+    EggsSection:NewToggle("Open Atlantis Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+local args = {
+    [1] = workspace.Eggs.Atlantis,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+
+    EggsSection:NewToggle("Open Tropical Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+local args = {
+    [1] = workspace.Eggs.Tropical,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+
+    EggsSection:NewToggle("Open Bee Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+local args = {
+    [1] = workspace.Eggs.Bee,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+
+    EggsSection:NewToggle("Open Galaxy Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+local args = {
+    [1] = workspace.Eggs.Galaxy,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+
+    local EggsSection = Eggs:NewSection("Portal 1")
+
+
+    EggsSection:NewToggle("Open Robot Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+
+local args = {
+    [1] = workspace.Eggs.Robot,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+
+    EggsSection:NewToggle("Open Chemical Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+
+local args = {
+    [1] = workspace.Eggs.Chemical,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+
+    EggsSection:NewToggle("Open Steampunk Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+
+local args = {
+    [1] = workspace.Eggs.Steampunk,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+
+    EggsSection:NewToggle("Open Holographic Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+
+local args = {
+    [1] = workspace.Eggs.Holographic,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+
+    EggsSection:NewToggle("Open Music Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+
+local args = {
+    [1] = workspace.Eggs.Music,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+
+    EggsSection:NewToggle("Open Hacker Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+
+local args = {
+    [1] = workspace.Eggs.Hacker,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+    EggsSection:NewToggle("Open Mars Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+
+local args = {
+    [1] = workspace.Eggs.Mars,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+
+    local EggsSection = Eggs:NewSection("Time World")
+
+
+    EggsSection:NewToggle("Open Dinosaur Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+local args = {
+    [1] = workspace.Eggs.Dinosaur,
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+    EggsSection:NewToggle("Open Egypt Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+          local args = {
+            [1] = workspace.Eggs.Egypt,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+wait(0.8)
+        end
+    end)
+    EggsSection:NewToggle("Open Ice Age Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+local args = {
+    [1] = workspace.Eggs:FindFirstChild("Ice Age"),
+    [2] = false,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+
+wait(0.8)
+        end
+    end)
+    EggsSection:NewToggle("Open Samurai Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+          local args = {
+            [1] = workspace.Eggs.Samurai,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+wait(0.8)
+        end
+    end)
+    EggsSection:NewToggle("Open Rome Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+          local args = {
+            [1] = workspace.Eggs.Rome,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+wait(0.8)
+        end
+    end)
+    EggsSection:NewToggle("Open Jungle Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+          local args = {
+            [1] = workspace.Eggs.Jungle,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+wait(0.8)
+        end
+    end)
+    EggsSection:NewToggle("Open Viking Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+          local args = {
+            [1] = workspace.Eggs.Viking,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+wait(0.8)
+        end
+    end)
+    EggsSection:NewToggle("Open Wild West Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+          local args = {
+            [1] = workspace.Eggs:FindFirstChild("Wild West"),
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+        
+wait(0.8)
+        end
+    end)
+    EggsSection:NewToggle("Open Future Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+          local args = {
+            [1] = workspace.Eggs.Future,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+wait(0.8)
+        end
+    end)
+    EggsSection:NewToggle("Open Heaven Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+          local args = {
+            [1] = workspace.Eggs.Heaven,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+wait(0.8)
+        end
+    end)
+    EggsSection:NewToggle("Open Hell Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+          local args = {
+            [1] = workspace.Eggs.Hell,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+wait(0.8)
+        end
+    end)
+
+    local EggsSection = Eggs:NewSection("Ocean World")
+
+    EggsSection:NewToggle("Open Swamp Egg", "Opens Egg", function(v)
+        getgenv().autotap = v
+        while true do
+          if not getgenv().autotap then return end
+          local args = {
+            [1] = workspace.Eggs.Swamp,
+            [2] = false,
+            [3] = false
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Client.purchaseEgg2:InvokeServer(unpack(args))
+wait(0.8)
+        end
+    end)
+
+
+    local Misc = Window:NewTab("Misc")
+    local MiscSection = Misc:NewSection("Misc")
+ 
+    MiscSection:NewSlider("Walkspeed", "Changes Walkspeed", 250, 16, function(v)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+    end)
+ 
+    MiscSection:NewSlider("Jumppower", "Changes Jump height", 500, 50, function(v)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
+    end)
+
+    local MiscSection = Misc:NewSection("Teleports To Crafting Areas")
+
+    MiscSection:NewButton("Shiny Crafter", "Teleports To Shiny Crafter", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-112.108963, 16258.6924, 34.252903, -0.995329976, 4.06049361e-11, -0.0965312719, 4.47926383e-11, 1, -4.12148302e-11, 0.0965312719, -4.53462441e-11, -0.995329976)      
+    end)
+
+    MiscSection:NewButton("Rainbow Crafter", "Teleports To Rainbow Crafter", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9949.88086, 11.4174566, -1831.56506, -0.838422716, -4.61248355e-08, 0.545020521, -3.3340573e-08, 1, 3.33406547e-08, -0.545020521, 9.78226744e-09, -0.838422716)        
+    end)
+
+
+
+    local Credits = Window:NewTab("Credits")
+    local CreditsSection = Credits:NewSection("OverK2ll#3442")
+
+end 
